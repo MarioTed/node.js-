@@ -1,0 +1,26 @@
+{
+  "name": "zhihu-api",
+  "version": "1.0.0",
+  "description": "仿知乎",
+  "main": "index.js",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^3.6.0",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node app/index.js",
+    "dev": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC"
+}

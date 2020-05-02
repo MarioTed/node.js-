@@ -1,0 +1,7 @@
+<!--action就是接口;multipart/form-data代表可以上传文件-->
+<form action="/upload" enctype="multipart/form-data" method="POST">
+    <!--可以使用户选择一个或多个文件进行上传-->
+    <!-- <input type="file" name="file" accept=".png,.jpg,.jpeg"> -->
+    <input type="file" name="file" accept="image/*">
+    <button type="submit">上传</button>
+</form>
